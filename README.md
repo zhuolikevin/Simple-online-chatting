@@ -10,14 +10,14 @@ The main thread first read the txt file and created a TCP socket to wait for req
 Client.py:
 This code is quite simple. Two threads are set up to seperately deal with receiving the message from the server and sending the command to the server. The main thread is used to check the connection flag and catch the keyboard interrupt.
 
-————————————————————————————————————————————————————————————————————————————————————————
+
 b. Details on development environment
 
 Operating System:       Mac OS X 10.9.4
 programming language:   Python 2.7.3
 IDE:                    Eclipse 4.4.1
 
-————————————————————————————————————————————————————————————————————————————————————————
+
 c. Instructions on how to run your code
 
 Put Server.py and user_pass.txt together and run Server.py in the host machine while then Client.py in the users’ machines.
@@ -28,7 +28,7 @@ Then the Server program will display its IP and port and you can follow the inst
 
 Examples will be shown in next d section.
 
-————————————————————————————————————————————————————————————————————————————————————————
+
 d. Sample commands in invoke your code
 
 For Server:
@@ -162,7 +162,7 @@ You have logged out successfully
 Note:
 The client command ‘broadcast<message>’ and ‘message<user><message>’, you should input ’<‘ & ‘>’. And there is no space between each of the three parts. (e.g. message<columbia><Call me when you are online>) So is that for ‘block<user>’ and ‘unblock<user>’
 
-————————————————————————————————————————————————————————————————————————————————————————
+
 e. Description of any additional functionalities and how they should be executed/tested
 
 1) Display login time
